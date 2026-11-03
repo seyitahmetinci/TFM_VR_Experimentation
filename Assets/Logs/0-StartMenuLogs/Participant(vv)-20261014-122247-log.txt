@@ -1,0 +1,8 @@
+Participant: vv
+Session start: 14/10/2026 12:22:47
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 187.4s, Accuracy = 19.2%
+Session finished.
+

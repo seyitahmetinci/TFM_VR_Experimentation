@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e082280d358159479dc5e830e607636, type: 3}
+  m_Name: User 3
+  m_EditorClassIdentifier: 
+  SessionName: ExperimentoVR
+  GroupName: GrupoUnico
+  IndependentVariable: PathLine
+  MapName: Maze2
+  TurnDurationSeconds: 60
+  ParticipantCount: 2
+  ParticipantOrder:
+  - U003_1
+  - U003_2
+  ManualParticipantName: 
+  ExperimentId: GuidanceMode
+  FormulaProfile: default
+  Description: 'Experiment for measuring 3 guidance modes. '
+  UseGazeTracker: 1
+  UseEyeTracker: 0
+  UseMovementTracker: 1
+  UseHandTracker: 0
+  UseFootTracker: 0
+  UseRaycastLogger: 1
+  UseCollisionLogger: 0
+  EnableGMControls: 1
+  FlowMode: 1
+  EndCondition: 1
+  Metrics:
+    HitRatio:
+      Enabled: 1
+      Weight: 0.5
+      Min: 0
+      Max: 1
+      Invert: 0
+    SuccessRate:
+      Enabled: 1
+      Weight: 0.5
+      Min: 0
+      Max: 1
+      Invert: 0
+    LearningCurveMean:
+      Enabled: 0
+      Weight: 0.15
+      Min: 0
+      Max: 1
+      Invert: 0
+    Progression:
+      Enabled: 0
+      Weight: 0.1
+      Min: 0
+      Max: 10
+      Invert: 0
+    SuccessAfterRestart:
+      Enabled: 0
+      Weight: 0.1
+      Min: 0
+      Max: 1
+      Invert: 0
+    PathEfficiency:
+      Enabled: 0
+      Weight: 0.5
+      Min: 0
+      Max: 1
+      Invert: 0
+    GazeOnPathRatio:
+      Enabled: 0
+      Weight: 0.2
+      Min: 0
+      Max: 1
+      Invert: 0
+    AvgReactionTimeMs:
+      Enabled: 0
+      Weight: 0.4
+      Min: 100
+      Max: 5000
+      Invert: 1
+    AvgTaskDurationMs:
+      Enabled: 1
+      Weight: 0.5
+      Min: 6000
+      Max: 120000
+      Invert: 1
+    TimePerSuccessS:
+      Enabled: 0
+      Weight: 0.2
+      Min: 0
+      Max: 60
+      Invert: 1
+    NavigationErrors:
+      Enabled: 0
+      Weight: 0.1
+      Min: 0
+      Max: 10
+      Invert: 1
+    LearningStability:
+      Enabled: 0
+      Weight: 0.3
+      Min: 0
+      Max: 1
+      Invert: 0
+    ErrorReductionRate:
+      Enabled: 0
+      Weight: 0.25
+      Min: 0
+      Max: 1
+      Invert: 0
+    VoluntaryPlayTimeS:
+      Enabled: 0
+      Weight: 0.25
+      Min: 0
+      Max: 60
+      Invert: 0
+    AidUsage:
+      Enabled: 0
+      Weight: 0.1
+      Min: 0
+      Max: 5
+      Invert: 1
+    InterfaceErrors:
+      Enabled: 0
+      Weight: 0.1
+      Min: 0
+      Max: 5
+      Invert: 1
+    ActivityLevelPerMin:
+      Enabled: 0
+      Weight: 0.25
+      Min: 0
+      Max: 100
+      Invert: 0
+    FirstSuccessTimeS:
+      Enabled: 0
+      Weight: 0.25
+      Min: 0
+      Max: 30
+      Invert: 1
+    InactivityTimeS:
+      Enabled: 0
+      Weight: 0.2
+      Min: 0
+      Max: 60
+      Invert: 1
+    SoundLocalizationTimeS:
+      Enabled: 0
+      Weight: 0.15
+      Min: 0
+      Max: 10
+      Invert: 1
+    AudioPerformanceGain:
+      Enabled: 0
+      Weight: 0.15
+      Min: -1
+      Max: 1
+      Invert: 0
+  CustomEventRoles: []
+  CustomMetrics: []

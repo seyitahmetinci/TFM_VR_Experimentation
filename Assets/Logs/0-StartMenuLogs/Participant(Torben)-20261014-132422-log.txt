@@ -1,0 +1,8 @@
+Participant: Torben
+Session start: 14/10/2026 13:24:22
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 143.4s, Accuracy = 55.6%
+Session finished.
+

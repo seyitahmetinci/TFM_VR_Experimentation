@@ -1,0 +1,18 @@
+Participant: 3
+Session start: 14/05/2026 12:18:34
+=========================================
+
+SessionStart
+
+=== Navigation Game Log ===
+Mode: VR
+Started: 14/05/2026 12:18:46
+Lobby: Guide = Humanoid agent, Maze 3
+
+
+=== Navigation Game Ended ===
+End time: 14/05/2026 12:19:27
+Guided round: 17.405s
+Unguided round: 12.504s
+Lobby: Guide = Humanoid agent, Maze 3
+

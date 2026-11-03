@@ -1,0 +1,10 @@
+Participant: asd
+Session start: 03/11/2026 12:15:30
+=========================================
+
+SessionStart
+SessionStart
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 19.0s, Accuracy = 71.4%
+Session finished.
+

@@ -1,0 +1,8 @@
+Participant: aida
+Session start: 09/10/2026 17:05:12
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 193.5s, Accuracy = 71.4%
+Session finished.
+

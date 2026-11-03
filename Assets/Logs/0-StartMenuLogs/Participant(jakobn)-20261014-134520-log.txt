@@ -1,0 +1,8 @@
+Participant: jakobn
+Session start: 14/10/2026 13:45:20
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 95.9s, Accuracy = 62.5%
+Session finished.
+

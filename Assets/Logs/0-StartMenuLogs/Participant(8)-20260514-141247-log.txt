@@ -1,0 +1,13 @@
+Participant: 8
+Session start: 14/05/2026 14:12:47
+=========================================
+
+SessionStart
+SessionStart
+SessionStart
+
+=== Navigation Game Log ===
+Mode: VR
+Started: 14/05/2026 14:13:16
+Lobby: Guide = Verbal agent, Maze 1
+

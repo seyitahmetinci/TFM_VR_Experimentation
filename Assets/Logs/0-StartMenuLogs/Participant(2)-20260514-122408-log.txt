@@ -1,0 +1,21 @@
+Participant: 2
+Session start: 14/05/2026 12:24:08
+=========================================
+
+SessionStart
+
+=== Navigation Game Log ===
+Mode: VR
+Started: 14/05/2026 12:25:06
+Lobby: Guide = Roadline, Maze 3
+
+
+=== Navigation Game Ended ===
+End time: 14/05/2026 12:26:20
+Guided round: 47.811s
+Unguided round: 15.876s
+Lobby: Guide = Roadline, Maze 3
+
+[GameOver] From scene 'NavigationScene' - Guided = 47.811s, Unguided = 15.876s
+Session finished.
+

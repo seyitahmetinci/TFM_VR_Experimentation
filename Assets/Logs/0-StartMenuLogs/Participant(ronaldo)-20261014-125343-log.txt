@@ -1,0 +1,11 @@
+Participant: ronaldo
+Session start: 14/10/2026 12:53:43
+=========================================
+
+SessionStart
+
+=== Navigation Game Log ===
+Mode: VR
+Started: 14/10/2026 12:54:53
+Lobby: Guide = Roadline, Maze 1
+

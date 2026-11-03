@@ -1,0 +1,10 @@
+Participant: claudia
+Session start: 14/10/2026 13:38:00
+=========================================
+
+SessionStart
+SessionStart
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 114.8s, Accuracy = 71.4%
+Session finished.
+

@@ -1,0 +1,21 @@
+Participant: 2
+Session start: 14/05/2026 12:28:32
+=========================================
+
+SessionStart
+
+=== Navigation Game Log ===
+Mode: VR
+Started: 14/05/2026 12:28:50
+Lobby: Guide = Verbal agent, Maze 2
+
+
+=== Navigation Game Ended ===
+End time: 14/05/2026 12:30:06
+Guided round: 41.385s
+Unguided round: 23.047s
+Lobby: Guide = Verbal agent, Maze 2
+
+[GameOver] From scene 'NavigationScene' - Guided = 41.385s, Unguided = 23.047s
+Session finished.
+

@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "description": "Config completo del experimento + mapeo de eventos y mÃ©tricas",
+  "author": "VR USER EVALUATION - UPM",
+  "last_updated": "2025-11-03",
+  "session": {
+    "session_name": "Dia_1",
+    "group_name": "Grupo_A",
+    "independent_variable": "",
+    "turn_duration_seconds": 20
+  },
+  "participants": {
+    "count": 4,
+    "order": [
+      "U001",
+      "U002",
+      "U003",
+      "U004"
+    ]
+  },
+  "experiment_selection": {
+    "experiment_id": "shooting_basic",
+    "formula_profile": "default",
+    "description": "Basic shooting experiment with 20 targets"
+  },
+  "modules": {
+    "useGazeTracker": true,
+    "useMovementTracker": true,
+    "useHandTracker": false,
+    "useFootTracker": false,
+    "useRaycastLogger": true,
+    "useCollisionLogger": true
+  },
+  "participant_flow": {
+    "mode": "turns",
+    "end_condition": "timer",
+    "gm_controls": {
+      "enabled": true,
+      "next_key": "N",
+      "end_key": "E",
+      "pause_key": "P",
+      "force_task_end_key": "T"
+    }
+  },
+  "event_roles": {
+    "target_hit": "action_success",
+    "target_miss": "action_fail",
+    "goal_reached": "action_success",
+    "object_placed_correctly": "action_success",
+    "object_dropped": "action_fail",
+    "fall_detected": "action_fail",
+    "task_start": "task_start",
+    "task_end": "task_end",
+    "task_restart": "task_restart",
+    "task_timeout": "task_abandoned",
+    "task_abandoned": "task_abandoned",
+    "session_start": "session_start",
+    "session_end": "session_end",
+    "early_leave": "session_end",
+    "collision": "navigation_error",
+    "navigation_error": "navigation_error",
+    "controller_error": "interface_error",
+    "wrong_button": "interface_error",
+    "ui_interaction": "interface_action",
+    "menu_opened": "interface_action",
+    "menu_closed": "interface_action",
+    "help_requested": "help_event",
+    "guide_used": "help_event",
+    "hint_used": "help_event",
+    "tutorial_step": "help_event",
+    "movement_frame": "movement_update",
+    "teleport_used": "movement_action",
+    "walk_step": "movement_action",
+    "sharp_turn": "movement_action",
+    "turn_event": "movement_action",
+    "inspect_object": "exploration_event",
+    "gaze_sustained": "gaze_event",
+    "gaze_frequency_change": "gaze_event",
+    "gaze_exit": "gaze_event",
+    "action_with_gaze_check": "gaze_action",
+    "eye_tracking_sample": "gaze_sample",
+    "controller_action": "interaction_event",
+    "object_grabbed": "interaction_event",
+    "object_released": "interaction_event",
+    "trigger_pull": "interaction_event",
+    "audio_triggered": "audio_event",
+    "sound_source_active": "audio_event",
+    "head_turn": "audio_reaction",
+    "inactivity_frame": "inactivity_event",
+    "timeout_detected": "inactivity_event",
+    "system_warning": "system_event",
+    "performance_drop": "system_event",
+    "latency_spike": "system_event",
+    "spawn_object": "task_start",
+    "bullet_hit": "action_success",
+    "reaction_time": "performance_measure",
+    "manual_despawn": "action_fail",
+    "custom_event": "custom_event"
+  },
+  "metrics": {
+    "efectividad": {
+      "hit_ratio": {
+        "weight": 0.5,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "success_rate": {
+        "weight": 0.5,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "learning_curve_mean": {
+        "weight": 0.15,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "progression": {
+        "weight": 0.10,
+        "min": 0,
+        "max": 10,
+        "invert": false,
+        "enabled": true
+      },
+      "success_after_restart": {
+        "weight": 0.10,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      }
+    },
+    "eficiencia": {
+      "avg_task_duration_ms": {
+        "weight": 0.5,
+        "min": 1000,
+        "max": 30000,
+        "invert": true,
+        "enabled": true
+      },
+      "path_efficiency": {
+        "weight": 0.5,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "avg_reaction_time_ms": {
+        "weight": 0.40,
+        "min": 100,
+        "max": 2000,
+        "invert": true,
+        "enabled": true
+      },
+      "time_per_success_s": {
+        "weight": 0.20,
+        "min": 0,
+        "max": 60,
+        "invert": true,
+        "enabled": true
+      },
+      "navigation_errors": {
+        "weight": 0.10,
+        "min": 0,
+        "max": 10,
+        "invert": true,
+        "enabled": true
+      }
+    },
+    "satisfaccion": {
+      "learning_stability": {
+        "weight": 0.30,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "error_reduction_rate": {
+        "weight": 0.25,
+        "min": 0,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      },
+      "voluntary_play_time_s": {
+        "weight": 0.25,
+        "min": 0,
+        "max": 60,
+        "invert": false,
+        "enabled": true
+      },
+      "aid_usage": {
+        "weight": 0.10,
+        "min": 0,
+        "max": 5,
+        "invert": true,
+        "enabled": true
+      },
+      "interface_errors": {
+        "weight": 0.10,
+        "min": 0,
+        "max": 5,
+        "invert": true,
+        "enabled": true
+      }
+    },
+    "presencia": {
+      "activity_level_per_min": {
+        "weight": 0.25,
+        "min": 0,
+        "max": 100,
+        "invert": false,
+        "enabled": true
+      },
+      "first_success_time_s": {
+        "weight": 0.25,
+        "min": 0,
+        "max": 30,
+        "invert": true,
+        "enabled": true
+      },
+      "inactivity_time_s": {
+        "weight": 0.20,
+        "min": 0,
+        "max": 60,
+        "invert": true,
+        "enabled": true
+      },
+      "sound_localization_time_s": {
+        "weight": 0.15,
+        "min": 0,
+        "max": 10,
+        "invert": true,
+        "enabled": true
+      },
+      "audio_performance_gain": {
+        "weight": 0.15,
+        "min": -1,
+        "max": 1,
+        "invert": false,
+        "enabled": true
+      }
+    }
+  },
+  "custom_events": {
+    "hand_movement": "motion_capture",
+    "body_rotation": "motion_capture",
+    "controller_vibration": "feedback_event",
+    "npc_interaction": "social_event",
+    "menu_navigation": "interface_action",
+    "object_throw": "interaction_event",
+    "object_collision": "physics_event",
+    "gaze_on_npc": "attention_event",
+    "camera_shake": "system_event",
+    "microphone_input": "voice_event"
+  }
+}

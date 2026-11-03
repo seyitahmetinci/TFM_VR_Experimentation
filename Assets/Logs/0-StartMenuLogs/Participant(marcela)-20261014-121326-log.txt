@@ -1,0 +1,8 @@
+Participant: marcela
+Session start: 14/10/2026 12:13:26
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 160.5s, Accuracy = 35.7%
+Session finished.
+

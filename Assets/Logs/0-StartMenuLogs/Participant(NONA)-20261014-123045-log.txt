@@ -1,0 +1,8 @@
+Participant: NONA
+Session start: 14/10/2026 12:30:45
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 125.9s, Accuracy = 100.0%
+Session finished.
+

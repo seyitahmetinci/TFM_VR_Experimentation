@@ -1,0 +1,8 @@
+Participant: ar
+Session start: 14/10/2026 12:49:12
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 90.3s, Accuracy = 83.3%
+Session finished.
+

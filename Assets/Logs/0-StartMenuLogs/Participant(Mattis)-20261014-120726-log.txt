@@ -1,0 +1,8 @@
+Participant: Mattis
+Session start: 14/10/2026 12:07:26
+=========================================
+
+SessionStart
+[GameOver] From scene 'PuzzleScene' - Time = 164.9s, Accuracy = 33.3%
+Session finished.
+
